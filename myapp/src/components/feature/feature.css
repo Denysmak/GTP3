@@ -32,7 +32,7 @@
 }
 .gpt3__features-container_feature-text{
     flex: 2;
-    max-width: 390px;
+    max-width: 390px !important;
     /* justify-content: flex-end; */
     display: flex;
 }
@@ -46,10 +46,10 @@
 }
 
 @media screen and (max-width: 550px){
-    .gpt3__features-container__feature-title h1{
+    /* .gpt3__features-container__feature-title h1{
         font-size:40px;
         line-height:22px; 
-    }
+    } */
     .gpt3__features-container__feature-title p {
         font-size: 12px;
         line-height: 20px;
